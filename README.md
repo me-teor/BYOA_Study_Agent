@@ -34,3 +34,7 @@ conda create -n byoa_agent python=3.11
 conda activate byoa_agent
 pip install -r requirements.txt
 python src/app.py
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.

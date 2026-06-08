@@ -259,3 +259,7 @@ Before submission, make sure that the repository does not include:
 Large language models were used to help scaffold the project structure, design function calling schemas, implement local tools, improve the orchestration loop, build the Rich terminal UI, and write documentation.
 
 One technical challenge was that the model sometimes stopped after only one tool call and failed to complete multi-step tasks such as searching local materials and saving a Markdown note. This was solved by implementing a multi-round tool calling loop and adding a fallback auto-save mechanism. Another issue was that the model sometimes passed only a filename instead of a full relative path. This was solved by adding recursive filename resolution in `read_document()` and `analyze_csv()`.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
