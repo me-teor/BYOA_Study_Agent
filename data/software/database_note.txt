@@ -1,0 +1,5 @@
+A database management system, or DBMS, is software that helps users define, create, maintain, and control access to databases.
+
+An E-R model uses entities, attributes, and relationships to describe the data requirements of an application. It can later be transformed into a relational schema.
+
+A view is a virtual table derived from one or more base tables. It can simplify queries, improve security, and provide customized access to data.

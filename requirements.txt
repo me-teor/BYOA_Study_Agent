@@ -1,0 +1,14 @@
+# Core LLM API client
+openai>=1.0.0
+
+# Load API keys and model configuration from .env
+python-dotenv>=1.0.0
+
+# Read PDF files in local data folder
+pypdf>=4.0.0
+
+# Web search fallback tool
+ddgs
+
+# Rich command-line UI
+rich>=13.0.0

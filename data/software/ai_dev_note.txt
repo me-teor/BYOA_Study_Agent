@@ -1,0 +1,5 @@
+Model Context Protocol, called MCP, is an open protocol that allows systems to provide context and tools to AI models in a standardized way.
+
+MCP usually includes a host, an MCP client, an MCP server, and tools. The host can be an AI IDE such as Cursor or Claude Desktop. The MCP server exposes tool definitions to the model. The model can decide when to call tools.
+
+AI IDEs such as Cursor support inline completion, chat, multi-file reasoning, debugging, and documentation generation. They usually retrieve relevant code chunks and feed them as context into the LLM.
