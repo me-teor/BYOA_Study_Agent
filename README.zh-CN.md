@@ -1,3 +1,8 @@
+<p align="right">
+  <strong>简体中文</strong> |
+  <a href="./README.en.md">English</a>
+</p>
+
 # BYOA Study Agent
 
 ## 1. 项目简介
